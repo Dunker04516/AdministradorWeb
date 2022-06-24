@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::prefix('admin')->name("admin.")->group(function(){
+    Route::get("/", [AdminController::class, 'index'])->name("index");
+    Route::post("guardar", [AdminController::class, 'guardar'])->name("guardar");
+});
 
 Route::get("/", [WebController::class, 'index'])->name("index");

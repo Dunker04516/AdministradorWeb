@@ -17,9 +17,9 @@ class CreateIniciosTable extends Migration
         //Cambiamos nombre de tabla de "inicios" => "inicio"
         Schema::create('inicio', function (Blueprint $table) {
             $table->id();
-            $table->string('titulo', 45);
+            $table->string('titulo', 255);
             $table->text('descripcion');
-            $table->string('imagen', 45);
+            $table->string('imagen', 255);
             $table->string('url', 255);
             $table->timestamps();
         });

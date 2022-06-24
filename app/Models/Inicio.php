@@ -9,4 +9,5 @@ class Inicio extends Model
 {
     use HasFactory;
     protected $table = "inicio"; //Ponemos nombre a la tabla
+    protected $fillable = ["titulo", "descripcion", "url", "imagen"];
 }
