@@ -37,6 +37,25 @@
         </div>
     </div>
 
+    <nav class="container-fluid cnav">
+        <div class="row">
+            <div class="col">
+                <div class="logo-holder">
+                    <a href="index.html"><img class="logo" src="{{ asset('web/assets/images/logo.svg') }}"
+                            alt="CRE8"></a>
+                </div>
+            </div>
+            <div class="col text-right">
+                <div class="social-media">
+                    <div class="social-link-holder"><a href="#">Dribbble</a></div>
+                    <div class="social-link-holder"><a href="#">Instagram</a></div>
+                    <div class="social-link-holder"><a href="#">Twitter</a></div>
+                    <div class="social-link-holder"><a href="#">Facebook</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     {{-- Seccion main --}}
     @yield('main')
 
