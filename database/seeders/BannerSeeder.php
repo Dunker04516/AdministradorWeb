@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Banner;
 use Illuminate\Database\Seeder;
 
 class BannerSeeder extends Seeder
@@ -17,7 +18,7 @@ class BannerSeeder extends Seeder
         Banner::insert([
             'titulo' => 'Una compañia con las mejores tecnologias',
             'url' => 'https://www.google.com',
-            
+
 
         ]);
     }

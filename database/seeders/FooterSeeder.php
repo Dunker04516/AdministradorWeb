@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Footer;
 use Illuminate\Database\Seeder;
 
 class FooterSeeder extends Seeder
@@ -15,12 +16,12 @@ class FooterSeeder extends Seeder
     {
         //
         Footer::insert([
-            
+
             'imagen' => 'logo1.jpg',
             'url' => 'https://www.google.com',
             'titulo' => 'Direccion',
             'descripcion' => 'Calle consospo, C.P 2065, lomas de mactumatza'
-            
+
 
         ],
     [
@@ -28,14 +29,14 @@ class FooterSeeder extends Seeder
         'url' => 'https://www.google.com',
         'titulo' => 'Telefono',
         'descripcion' => '9611300165'
-        
+
     ],
     [
         'imagen' => 'logo3.jpg',
         'url' => 'https://www.google.com',
         'titulo' => 'Email',
         'descripcion' => 'patricialuciocruz98@gmail.com'
-        
+
     ]
     );
     }

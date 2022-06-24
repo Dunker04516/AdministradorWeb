@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Servicio;
 use Illuminate\Database\Seeder;
 
 class ServicioSeeder extends Seeder
@@ -29,7 +30,7 @@ class ServicioSeeder extends Seeder
             'titulo_servicios' => 'Arquitectura',
             'descripcion' => 'Somos los mejores construyendo con alta responsabilidad y eficacia',
     ]
-    
+
     );
     }
 }

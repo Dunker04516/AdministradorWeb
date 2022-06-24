@@ -17,7 +17,11 @@ class DatabaseSeeder extends Seeder
         $this->call([
             InicioSeeder::class,
             CategoriaSeeder::class,
-            GaleriaSeeder::class
+            GaleriaSeeder::class,
+            BannerSeeder::class,
+            FooterSeeder::class,
+            SkillSeeder::class,
+            TestimonioSeeder::class
         ]);
     }
 }

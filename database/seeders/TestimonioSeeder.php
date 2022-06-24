@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Testimonio;
 use Illuminate\Database\Seeder;
 
 class TestimonioSeeder extends Seeder
