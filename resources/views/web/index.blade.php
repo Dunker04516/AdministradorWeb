@@ -5,7 +5,8 @@
         <div class="row">
             <div class="col">
                 <div class="logo-holder">
-                    <a href="index.html"><img class="logo" src="images/logo.svg" alt="CRE8"></a>
+                    <a href="index.html"><img class="logo" src="{{ asset('web/assets/images/logo.svg') }}"
+                            alt="CRE8"></a>
                 </div>
             </div>
             <div class="col text-right">
@@ -68,7 +69,7 @@
             </div>
             <div class="col-md-6">
                 <div class="boxy img-box">
-                    <div class="img"><img src="images/img1.png" alt=""></div>
+                    <div class="img"><img src="{{ asset('web/assets/images/img1.png') }}" alt=""></div>
                     <div class="bottom-text">
                         <div class="link">VIEW THIS PROJECT</div>
                         <div class="text">Hubble eye lenses branding</div>
@@ -113,7 +114,7 @@
             </div>
             <div class="col-md-6">
                 <div class="boxy img-box">
-                    <div class="img"><img src="images/img2.png" alt=""></div>
+                    <div class="img"><img src="{{ asset('web/assets/images/img2.png') }}" alt=""></div>
                     <div class="bottom-text">
                         <div class="link">VIEW THIS PROJECT</div>
                         <div class="text">UIUX Design for travel agency</div>
@@ -149,7 +150,7 @@
             </div>
             <div class="col-md-6">
                 <div class="boxy img-box">
-                    <div class="img"><img src="images/img3.png" alt=""></div>
+                    <div class="img"><img src="{{ asset('web/assets/images/img3.png') }}" alt=""></div>
                     <div class="bottom-text">
                         <div class="link">VIEW THIS PROJECT</div>
                         <div class="text">CoinView App development</div>
@@ -193,7 +194,7 @@
             </div>
             <div class="col-md-6">
                 <div class="boxy img-box">
-                    <div class="img"><img src="images/img4.png" alt=""></div>
+                    <div class="img"><img src="{{ asset('web/assets/images/img4.png') }}" alt=""></div>
                     <div class="bottom-text">
                         <div class="link">VIEW THIS PROJECT</div>
                         <div class="text">Hubble package design</div>
@@ -235,14 +236,22 @@
                         was born and I will give you a complete account of the system.</p>
                 </div>
                 <div class="clients-logos">
-                    <div class="logo-holder"><img src="images/client1.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client2.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client3.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client4.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client5.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client6.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client7.png" alt=""></div>
-                    <div class="logo-holder"><img src="images/client8.png" alt=""></div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client1.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client2.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client3.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client4.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client5.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client6.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client7.png') }}" alt="">
+                    </div>
+                    <div class="logo-holder"><img src="{{ asset('web/assets/images/client8.png') }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>
